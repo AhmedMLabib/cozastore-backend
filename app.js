@@ -7,7 +7,7 @@ const messageRouter = require("./Routes/message.router");
 const cors = require("cors");
 const port = process.env.PORT || 3000;
 const app = express();
-app.use(cors({ origin: "https://ahmedmlabib.github.io/cozastore-frontend/" }));
+app.use(cors({ origin: "https://ahmedmlabib.github.io" }));
 app.use(express.json());
 
 app.use("/images", express.static("./images"));
