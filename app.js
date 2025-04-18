@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     origin: "https://ahmedmlabib.github.io",
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
   })
 );
 app.use(express.json());
